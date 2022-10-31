@@ -1,0 +1,9 @@
+{
+    "esriFieldTypeDate": "DATE",
+    "esriFieldTypeInteger": "INTEGER",
+    "esriFieldTypeDouble": "NUMERIC",
+    "esriFieldTypeSingle": "REAL",
+    "esriFieldTypeSmallInteger": "SMALLINT",
+    "esriFieldTypeString": "TEXT",
+    "esriFieldTypeOID": "INTEGER"
+}

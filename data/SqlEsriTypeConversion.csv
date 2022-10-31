@@ -1,0 +1,33 @@
+sql_data_type,esri_field_type
+bigint,esriFieldTypeDouble
+binary,esriFieldTypeString
+bit,Not supported
+char,esriFieldTypeString
+date,esriFieldTypeDate
+datetime,esriFieldTypeDate
+datetime2,esriFieldTypeDate
+datetimeoffset,Not supported
+decimal,esriFieldTypeDouble
+float,esriFieldTypeDouble
+geography,esriFieldTypeGeometry
+geometry,esriFieldTypeGeometry
+image,Not supported
+int,esriFieldTypeInteger
+money,esriFieldTypeDouble
+nchar,esriFieldTypeString
+ntext,Not supported
+numeric,esriFieldTypeDouble
+nvarchar,esriFieldTypeString
+real,esriFieldTypeSingle
+smalldatetime,esriFieldTypeDate
+smallint,esriFieldTypeSmallInteger
+smallmoney,esriFieldTypeDouble
+text,Not supported
+time,esriFieldTypeDate
+timestamp,Not supported
+tinyint,esriFieldTypeSmallInteger
+udt,Not supported
+uniqueidentifier,esriFieldTypeString
+varbinary,Not supported
+varchar,esriFieldTypeString
+xml,Not supported

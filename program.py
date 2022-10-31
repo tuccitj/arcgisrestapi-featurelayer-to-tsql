@@ -15,8 +15,9 @@ def main():
 
     output_path = "./scripts/generated"
 
-    layer2table = GisLayer2Table(parent_logger=logger)
+    layer2table = GisLayer2Table(parent_logger=logger, conversion_table_source="data\EsriPostgresTypeConversion.json")
     
     for url in urls:
-        layer2table.generateScript(url, output_path)
+        result = layer2table.generateScript(url, output_type='tsql', output_path=output_path)
+        print(result)
 main()
